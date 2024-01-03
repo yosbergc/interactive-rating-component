@@ -53,7 +53,7 @@ p {
     transition: 0.4s;
     transition-timing-function: ease-in-out;
 }
-.star:hover {
+.star:hover, .submit:hover {
     cursor: pointer;
 }
 .submit {
@@ -68,4 +68,31 @@ p {
 .orange {
     background-color: hsl(25, 97%, 53%);
     color: white;
+}
+.thank-you {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.thank-you img {
+    width: 100%;
+    height: 150px;
+    object-fit: contain;
+    background: none;
+}
+.thank-you h2, .thank-you p {
+    text-align: center;
+}
+.selected {
+    display: inline-block;
+    justify-self: center;
+    background-color: hsl(213, 9%, 25%);
+    padding: 5px 10px;
+    border-radius: 20px;
+    color: hsl(25, 97%, 53%);
+    margin: 10px 0px;
+}
+.hide {
+    display: none;
 }
