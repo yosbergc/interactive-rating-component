@@ -14,7 +14,7 @@ main {
 .card {
     width: 90%;
     max-width: 400px;
-    padding: 20px;
+    padding: 40px 30px;
     border-radius: 10px;
     background-color: hsl(214, 18%, 16%);
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.30);
@@ -50,6 +50,11 @@ p {
     background-color: hsl(216, 10%, 30%);
     color: hsl(216, 12%, 54%);
     font-weight: 800;
+    transition: 0.4s;
+    transition-timing-function: ease-in-out;
+}
+.star:hover {
+    cursor: pointer;
 }
 .submit {
     background-color: hsl(25, 97%, 53%);
@@ -58,5 +63,9 @@ p {
     border: none;
     border-radius: 20px;
     font-weight: 800;
+    color: white;
+}
+.orange {
+    background-color: hsl(25, 97%, 53%);
     color: white;
 }
